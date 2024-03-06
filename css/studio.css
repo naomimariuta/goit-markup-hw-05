@@ -31,7 +31,6 @@
 	height: 56px;
 	padding: 16px 32px;
 	background: var(--iris);
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	border: 0;
 	border-radius: 4px;
 	font-weight: 500;
@@ -42,11 +41,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.hero-section button:hover {
-	color: var(--green);
-	background: var(--slate);
 }
 
 .section-list {

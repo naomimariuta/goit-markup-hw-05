@@ -100,7 +100,7 @@ li {
 }
 
 .navbar-list-item:hover {
-	color: var(--green);
+	color: var(--ocean);
 }
 
 .active-page::after {
@@ -130,7 +130,7 @@ li {
 }
 
 .contact a:hover {
-	color: var(--green);
+	color: var(--ocean);
 }
 
 .footer-section {
@@ -139,6 +139,7 @@ li {
 }
 
 .footer-logo {
+	width: 125px;
 	font-family: var(--second-family);
 	font-weight: 800;
 	font-size: 18px;

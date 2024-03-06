@@ -38,11 +38,13 @@
 .project-card {
 	border: 1px solid var(--cornflower);
 	background: var(--white);
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-card:hover {
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-	scale: 1.015;
+	cursor: pointer;
+	transform: scale(1.05);
 }
 
 .project-card-info {

@@ -120,6 +120,7 @@
 .icon-client {
 	width: 104px;
 	height: 56px;
+	transition: color var(--transition);
 }
 
 .icon-client:hover,
@@ -136,6 +137,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: border var(--transition);
 }
 
 .icon-client-background:hover,
@@ -169,11 +171,6 @@
 	height: 16px;
 }
 
-.social-icon:hover,
-.social-icon:active {
-	color: var(--white);
-}
-
 .social-icon {
 	width: 40px;
 	height: 40px;
@@ -182,16 +179,19 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: background-color, color var(--transition);
 }
 
 .social-icon:hover,
 .social-icon:active {
 	background: var(--iris);
 	border-radius: 50%;
+	color: var(--white);
 }
 
 .is-hidden {
 	visibility: hidden;
+	scale: 1.05;
 }
 
 .modal {
@@ -204,6 +204,7 @@
 	justify-content: center;
 	align-items: center;
 	background: var(--navy-blue-modal);
+	transition: transform var(--transition);
 }
 
 .modal-content {
